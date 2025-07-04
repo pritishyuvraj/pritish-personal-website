@@ -581,3 +581,220 @@
     min-width: auto;
   }
 }
+
+/* Key Projects Section - Enhanced with links */
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.project-item {
+  border-left: 3px solid #e0e0e0;
+  padding: 25px;
+  border-radius: 8px;
+  border-left: 4px solid #0066cc;
+  background-color: #fafafa;
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.project-icon {
+  font-size: 1.8rem;
+  flex-shrink: 0;
+}
+
+.project-header-text {
+  flex: 1;
+}
+
+.project-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.project-role {
+  font-weight: 500;
+  color: #0066cc;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+
+.project-desc {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.project-links {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.project-link {
+  color: #0066cc;
+  font-weight: 500;
+  padding: 6px 12px;
+  border: 1px solid #0066cc;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  background-color: #0066cc;
+  color: white;
+  text-decoration: none;
+}
+
+/* Responsive design for projects section */
+@media (max-width: 768px) {
+  .project-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .project-icon {
+    font-size: 1.5rem;
+  }
+  
+  .project-header-text {
+    width: 100%;
+  }
+  
+  .project-links {
+    justify-content: center;
+  }
+}
+
+/* Key Projects Section - Enhanced with ordered lists */
+.project-content {
+  margin-top: 10px;
+}
+
+.project-list {
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.project-list li {
+  margin-bottom: 12px;
+  padding-left: 5px;
+}
+
+.project-list li:last-child {
+  margin-bottom: 0;
+}
+
+/* Speaker Section */
+.speaker-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.speaker-item {
+  border-left: 3px solid #e0e0e0;
+  padding: 25px;
+  border-radius: 8px;
+  border-left: 4px solid #0066cc;
+  background-color: #fafafa;
+}
+
+.speaker-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.speaker-icon {
+  font-size: 1.8rem;
+  flex-shrink: 0;
+}
+
+.speaker-header-text {
+  flex: 1;
+}
+
+.speaker-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.speaker-role {
+  font-weight: 500;
+  color: #0066cc;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+.speaker-date {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 0;
+}
+
+.speaker-desc {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.speaker-links {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.speaker-link {
+  color: #0066cc;
+  font-weight: 500;
+  padding: 6px 12px;
+  border: 1px solid #0066cc;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.speaker-link:hover {
+  background-color: #0066cc;
+  color: white;
+  text-decoration: none;
+}
+
+/* Responsive design for speaker section */
+@media (max-width: 768px) {
+  .speaker-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .speaker-icon {
+    font-size: 1.5rem;
+  }
+  
+  .speaker-header-text {
+    width: 100%;
+  }
+  
+  .speaker-links {
+    justify-content: center;
+  }
+}

@@ -17,6 +17,8 @@ function App() {
           <div className="nav-links">
             <button onClick={() => scrollToSection('podcasts')} className="nav-link">Podcasts</button>
             <button onClick={() => scrollToSection('publications')} className="nav-link">Publications</button>
+            <button onClick={() => scrollToSection('projects')} className="nav-link">Key Projects</button>
+            <button onClick={() => scrollToSection('speaker')} className="nav-link">Speaker</button>
             <button onClick={() => scrollToSection('experience')} className="nav-link">Experience</button>
           </div>
         </div>
@@ -201,6 +203,97 @@ function App() {
           </div>
         </div>
 
+        {/* Key Projects Section */}
+        <div className="section" id="projects">
+          <h2 className="section-title">Key Projects</h2>
+          <div className="projects-list">
+            <div className="project-item">
+              <div className="project-header">
+                <span className="project-icon">🏆</span>
+                <div className="project-header-text">
+                  <h3 className="project-title">Best Model on LMSYS - LLama4</h3>
+                  <p className="project-role">Member of 5-person team</p>
+                </div>
+              </div>
+              <p className="project-desc">
+                Used custom online Reinforcement Learning Algorithm to push the LLama Maverick model from Elo Score 1246 to 1417, 
+                making it the best non-thinking LMSYS model.
+              </p>
+              <div className="project-links">
+                <a href="https://x.com/lmarena_ai/status/1908601011989782976" 
+                   target="_blank" rel="noopener noreferrer" className="project-link">
+                  View on Twitter
+                </a>
+              </div>
+            </div>
+            
+            <div className="project-item">
+              <div className="project-header">
+                <span className="project-icon">🌍</span>
+                <div className="project-header-text">
+                  <h3 className="project-title">Multilingual Lead for LLama</h3>
+                  <p className="project-role">Lead Multilingual Development</p>
+                </div>
+              </div>
+              <div className="project-content">
+                <ol className="project-list">
+                  <li>Brought Online Reinforcement Learning techniques to Multilingual to improve Language Match, achieving on average 15% improvements across all LLama supported languages in cross-lingual and mono-lingual tasks</li>
+                  <li>These improvements further enhanced DAU (Daily Active Users) for MetaAI</li>
+                  <li>Used Direct Preference Optimization and Supervised Fine-tuning to ensure LLama3.1 (8B/70B/405B), LLama3.2 (1B/3B), LLama3.3 (70B), LLama4 (Scout, Maverick, Behemoth) were the best models in multilingual across multiple benchmarks like Multi-IF, MGSM, multilingual MMLU</li>
+                  <li>These models outperformed GPT-4o, GPT-4.1, Microsoft Phi-3.5, and other leading competitors</li>
+                </ol>
+              </div>
+            </div>
+            
+            <div className="project-item">
+              <div className="project-header">
+                <span className="project-icon">⚙️</span>
+                <div className="project-header-text">
+                  <h3 className="project-title">Post-Training Team Member</h3>
+                  <p className="project-role">Model Training Specialist</p>
+                </div>
+              </div>
+              <p className="project-desc">
+                Post-training team member who trained the LLama3.2 (1B/3B), LLama 3.3 (70B) model. Extremely affluent at SFT, 
+                DPO, Souping models, model selection and Online RL.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Speaker Section */}
+        <div className="section" id="speaker">
+          <h2 className="section-title">Speaker</h2>
+          <div className="speaker-list">
+            <div className="speaker-item">
+              <div className="speaker-header">
+                <span className="speaker-icon">🎤</span>
+                <div className="speaker-header-text">
+                  <h3 className="speaker-title">GenAI Summit 2024</h3>
+                  <p className="speaker-role">Keynote Speaker</p>
+                  <p className="speaker-date">November 2, 2024</p>
+                </div>
+              </div>
+              <p className="speaker-desc">
+                Presented "Democratizing AI through LLama" at the GenAI Summit, discussing advancements made in LLama and the 
+                importance of multilinguality. The talk was attended by over 200 attendees, highlighting Llama's real-world impact. 
+                Covered technical architecture and challenges in building robust multilingual capabilities, including insights on 
+                the 1B/3B models launched by our team.
+              </p>
+              <div className="speaker-links">
+                <a href="https://sv2024.genaisummit.ai/session/4209180" 
+                   target="_blank" rel="noopener noreferrer" className="speaker-link">
+                  View Session
+                </a>
+                <a href="https://www.linkedin.com/posts/pritishyuvraj_llama-llm-ai-activity-7260185059549196289-Zs4R?utm_source=share&utm_medium=member_desktop&rcm=ACoAABo2zT4BqAPL0htEQ9VVPxy_55WT44NzH4s" 
+                   target="_blank" rel="noopener noreferrer" className="speaker-link">
+                  LinkedIn Post
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Experience Section */}
         <div className="section" id="experience">
           <h2 className="section-title">Experience</h2>
@@ -208,7 +301,7 @@ function App() {
             <div className="experience-item">
               <div className="job-header">
                 <img 
-                  src="/images/llama_logo_v2.jpg" 
+                  src="/images/llama_logo.avif" 
                   alt="LLama" 
                   className="company-logo"
                 />
@@ -262,7 +355,7 @@ function App() {
                 <li>Led the child safety division with focus on ensuring highest severity reports for kids get actioned by PDO's fastest</li>
                 <li>Trained multimodal models for proactive safety monitoring</li>
                 <li>Added proactive classifiers for nudity/porn detection and other safety concerns</li>
-      </ul>
+              </ul>
             </div>
           </div>
         </div>
