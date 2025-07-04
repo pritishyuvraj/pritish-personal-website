@@ -1,8 +1,29 @@
 import './App.css';
 
 function App() {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="app">
+      {/* Navigation Bar */}
+      <nav className="navbar">
+        <div className="nav-container">
+          <div className="nav-brand">Pritish Yuvraj</div>
+          <div className="nav-links">
+            <button onClick={() => scrollToSection('podcasts')} className="nav-link">Podcasts</button>
+            <button onClick={() => scrollToSection('publications')} className="nav-link">Publications</button>
+            <button onClick={() => scrollToSection('achievements')} className="nav-link">Key Achievements</button>
+            <button onClick={() => scrollToSection('projects')} className="nav-link">Key Projects</button>
+            <button onClick={() => scrollToSection('experience')} className="nav-link">Experience</button>
+          </div>
+        </div>
+      </nav>
+
       <div className="container">
         {/* Header with Photo and Basic Info */}
         <div className="header">
@@ -51,8 +72,114 @@ function App() {
           </div>
         </div>
 
-        {/* Key Projects */}
-        <div className="section">
+        {/* Podcasts Section */}
+        <div className="section" id="podcasts">
+          <h2 className="section-title">Podcasts</h2>
+          <div className="podcasts-list">
+            <div className="podcast-item">
+              <div className="podcast-header">
+                <img 
+                  src="/images/stanford_logo.webp" 
+                  alt="Stanford University" 
+                  className="podcast-logo"
+                />
+                <div className="podcast-header-text">
+                  <h3 className="podcast-title">AI Frontiers: Dialogues with Tech Pioneers</h3>
+                  <p className="podcast-host">Stanford University Technology Training</p>
+                </div>
+              </div>
+              <p className="podcast-desc">
+                Featured guest discussing machine learning, natural language processing, and AI advancements. 
+                Shared insights on multilingual capabilities, ethical AI applications, and work spanning 
+                child safety, content integrity, and well-being projects at Meta.
+              </p>
+              <div className="podcast-links">
+                <a href="https://uit.stanford.edu/service/techtraining/podcasts/pritish-yuvraj" 
+                   target="_blank" rel="noopener noreferrer" className="podcast-link">
+                  Listen to Podcast
+                </a>
+              </div>
+            </div>
+            
+            <div className="podcast-item">
+              <div className="podcast-header">
+                <div className="podcast-header-text">
+                  <h3 className="podcast-title">AI and Machine Learning Discussion</h3>
+                  <p className="podcast-host">with Aishwarya Srinivasan</p>
+                </div>
+              </div>
+              <p className="podcast-desc">
+                In-depth conversation about machine learning engineering, large language models, 
+                and the future of AI technology. Discussed experiences working on cutting-edge 
+                AI projects and the impact of machine learning across various domains.
+              </p>
+              <div className="podcast-links">
+                <a href="https://www.youtube.com/watch?v=smhiG9xpevA&t=1142s&pp=ygUOcHJpdGlzaCB5dXZyYWo%3D" 
+                   target="_blank" rel="noopener noreferrer" className="podcast-link">
+                  Watch on YouTube
+                </a>
+                <a href="https://www.linkedin.com/in/aishwarya-srinivasan/" 
+                   target="_blank" rel="noopener noreferrer" className="podcast-link">
+                  Aishwarya's LinkedIn
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Publications Section */}
+        <div className="section" id="publications">
+          <h2 className="section-title">Publications</h2>
+          <div className="publications-list">
+            <div className="publication-item">
+              <h3 className="pub-title">The llama 3 herd of models</h3>
+              <p className="pub-authors">Archive, August 15, 2024</p>
+            </div>
+            <div className="publication-item">
+              <h3 className="pub-title">A Systematic Classification of Knowledge, Reasoning, and Context within the ARC Dataset</h3>
+              <p className="pub-authors">Association for Computational Linguistics (ACL), Jul 2018</p>
+              <p className="pub-note">🏆 Best Paper Award at MRQA 2018</p>
+            </div>
+            <div className="publication-item">
+              <h3 className="pub-title">Modified Apriori Graph Algorithm for Frequent Pattern Mining</h3>
+              <p className="pub-authors">IEEE Sponsored Conference ICIIECS'16, March 16, 2016</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Key Achievements Section */}
+        <div className="section" id="achievements">
+          <h2 className="section-title">Key Achievements</h2>
+          <div className="achievements-list">
+            <div className="achievement-item">
+              <span className="achievement-icon">🏆</span>
+              <div className="achievement-content">
+                <h3 className="achievement-title">Best Paper Award</h3>
+                <p className="achievement-desc">Association for Computational Linguistics (ACL), Jul 2018</p>
+                <p className="achievement-detail">Won the best paper award for "A Systematic Classification of Knowledge, Reasoning, and Context within the ARC Dataset" at MRQA 2018</p>
+              </div>
+            </div>
+            <div className="achievement-item">
+              <span className="achievement-icon">🥇</span>
+              <div className="achievement-content">
+                <h3 className="achievement-title">Special Prize Winners (Top 5 Teams)</h3>
+                <p className="achievement-desc">HackerEarth and Harman Hackathon, May 2016</p>
+                <p className="achievement-detail">Stood in top 5 teams out of 445 teams comprising of 1300 members</p>
+              </div>
+            </div>
+            <div className="achievement-item">
+              <span className="achievement-icon">🎓</span>
+              <div className="achievement-content">
+                <h3 className="achievement-title">Summer Research Fellowship</h3>
+                <p className="achievement-desc">Indian Academy of Sciences, Mar 2016</p>
+                <p className="achievement-detail">Selected as Summer Research Fellow for Deep Learning research at Indian Statistical Institute</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Key Projects Section */}
+        <div className="section" id="projects">
           <h2 className="section-title">Key Projects</h2>
           <div className="projects-list">
             <div className="project-item">
@@ -78,8 +205,8 @@ function App() {
           </div>
         </div>
 
-        {/* Experience */}
-        <div className="section">
+        {/* Experience Section */}
+        <div className="section" id="experience">
           <h2 className="section-title">Experience</h2>
           <div className="experience-list">
             <div className="experience-item">
@@ -102,49 +229,6 @@ function App() {
                 <li>Published research papers in top conferences (ACL, IEEE)</li>
                 <li>Won Best Paper Award at ACL 2018</li>
       </ul>
-            </div>
-          </div>
-        </div>
-
-        {/* Publications */}
-        <div className="section">
-          <h2 className="section-title">Publications</h2>
-          <div className="publications-list">
-            <div className="publication-item">
-              <h3 className="pub-title">The llama 3 herd of models</h3>
-              <p className="pub-authors">Archive, August 15, 2024</p>
-            </div>
-            <div className="publication-item">
-              <h3 className="pub-title">A Systematic Classification of Knowledge, Reasoning, and Context within the ARC Dataset</h3>
-              <p className="pub-authors">Association for Computational Linguistics (ACL), Jul 2018</p>
-              <p className="pub-note">🏆 Best Paper Award at MRQA 2018</p>
-            </div>
-            <div className="publication-item">
-              <h3 className="pub-title">Modified Apriori Graph Algorithm for Frequent Pattern Mining</h3>
-              <p className="pub-authors">IEEE Sponsored Conference ICIIECS'16, March 16, 2016</p>
-            </div>
-          </div>
-        </div>
-
-        {/* Skills */}
-        <div className="section">
-          <h2 className="section-title">Skills & Technologies</h2>
-          <div className="skills-grid">
-            <div className="skill-category">
-              <h3>Machine Learning</h3>
-              <p>PyTorch, TensorFlow, Transformers, Hugging Face, Scikit-learn, LLama 3</p>
-            </div>
-            <div className="skill-category">
-              <h3>Programming</h3>
-              <p>Python, C++, JavaScript, TypeScript, R</p>
-            </div>
-            <div className="skill-category">
-              <h3>Research Areas</h3>
-              <p>Natural Language Processing, Neural Networks, Machine Learning, Statistics</p>
-            </div>
-            <div className="skill-category">
-              <h3>Tools & Frameworks</h3>
-              <p>Git, Jupyter, FastAPI, React, PostgreSQL, Kaggle</p>
             </div>
           </div>
         </div>
