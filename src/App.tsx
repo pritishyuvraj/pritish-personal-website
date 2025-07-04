@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 
 function App() {
@@ -102,7 +101,7 @@ function App() {
                 <li>Machine Learning and AI research roles</li>
                 <li>Published research papers in top conferences (ACL, IEEE)</li>
                 <li>Won Best Paper Award at ACL 2018</li>
-              </ul>
+      </ul>
             </div>
           </div>
         </div>
