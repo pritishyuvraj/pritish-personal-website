@@ -132,17 +132,61 @@ function App() {
           <h2 className="section-title">Publications</h2>
           <div className="publications-list">
             <div className="publication-item">
-              <h3 className="pub-title">The llama 3 herd of models</h3>
-              <p className="pub-authors">Archive, August 15, 2024</p>
+              <h3 className="pub-title">Layer Swapping for Zero-Shot Cross-Lingual Transfer in Large Language Models</h3>
+              <p className="pub-authors">Lucas Bandarkar, Benjamin Muller, Pritish Yuvraj, Rui Hou, Nayan Singhal, Hongjiang Lv, Bing Liu</p>
+              <p className="pub-venue">ICLR 2025, Spotlight Paper</p>
+              <p className="pub-note">🏆 Spotlight Paper at The Thirteenth International Conference on Learning Representations</p>
+              <div className="pub-links">
+                <a href="https://arxiv.org/abs/2410.01335" target="_blank" rel="noopener noreferrer" className="pub-link">
+                  View on arXiv
+                </a>
+              </div>
             </div>
+            
+            <div className="publication-item">
+              <h3 className="pub-title">The Llama 3 Herd of Models</h3>
+              <p className="pub-authors">Llama Team, AI @ Meta</p>
+              <p className="pub-venue">arXiv, July 2024</p>
+              <p className="pub-desc">Foundation models with 405B parameters supporting multilinguality, coding, reasoning, and tool usage</p>
+              <div className="pub-links">
+                <a href="https://arxiv.org/pdf/2407.21783" target="_blank" rel="noopener noreferrer" className="pub-link">
+                  View PDF
+                </a>
+              </div>
+            </div>
+            
             <div className="publication-item">
               <h3 className="pub-title">A Systematic Classification of Knowledge, Reasoning, and Context within the ARC Dataset</h3>
               <p className="pub-authors">Association for Computational Linguistics (ACL), Jul 2018</p>
               <p className="pub-note">🏆 Best Paper Award at MRQA 2018</p>
+              <div className="pub-links">
+                <a href="https://arxiv.org/pdf/1806.00358" target="_blank" rel="noopener noreferrer" className="pub-link">
+                  View PDF
+                </a>
+              </div>
             </div>
+            
+            <div className="publication-item">
+              <h3 className="pub-title">An Interface for Annotating Science Questions</h3>
+              <p className="pub-authors">Michael Boratko, Harshit Padigela, Divyendra Mikkilineni, Pritish Yuvraj, Rajarshi Das, Andrew McCallum, Maria Chang, Achille Fokoue, Pavan Kapanipathi, Nicholas Mattei, Ryan Musa, Kartik Talamadupula, Michael Witbrock</p>
+              <p className="pub-venue">EMNLP 2018</p>
+              <p className="pub-desc">Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing: System Demonstrations</p>
+              <div className="pub-links">
+                <a href="https://aclanthology.org/D18-2018/" target="_blank" rel="noopener noreferrer" className="pub-link">
+                  View on ACL Anthology
+                </a>
+              </div>
+            </div>
+            
             <div className="publication-item">
               <h3 className="pub-title">Modified Apriori Graph Algorithm for Frequent Pattern Mining</h3>
               <p className="pub-authors">IEEE Sponsored Conference ICIIECS'16, March 16, 2016</p>
+              <p className="pub-desc">Improved frequent pattern mining with O((V)(E)) time complexity</p>
+              <div className="pub-links">
+                <a href="https://arxiv.org/pdf/1804.10711" target="_blank" rel="noopener noreferrer" className="pub-link">
+                  View PDF
+                </a>
+              </div>
             </div>
           </div>
         </div>
