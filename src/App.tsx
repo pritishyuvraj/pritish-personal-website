@@ -36,14 +36,16 @@ function App() {
             <div className="profile-info">
               <h1 className="name">Pritish Yuvraj</h1>
               <p className="description">
-                I am a Machine Learning Engineer at Meta, specializing in Large Language Models (LLMs), 
-                AI/ML infrastructure, and scalable solutions. I have worked extensively on 
-                projects involving LLama 3 and other cutting-edge AI technologies.
-              </p>
+                Hi my name is Pritish Yuvraj, I am a Machine Learning engineer at Meta LLama Team. I lead LLama Multilingual team. 
+               </p>
+               <p className="description">
+                I was part of the Meta LLama LMSYS team which created the online-RL recipe lifted the Elo Score for LLama4 from 1246 to 1417 
+                (Yes I know the recipe to give almost 150 ELO Score boost to your model on LMSYS/LMArena.ai). 
+                </p>
               <p className="description">
-                My expertise spans across model optimization, fine-tuning, deployment, and 
-                building robust ML infrastructure. I'm passionate about pushing the boundaries 
-                of what's possible with AI and contributing to the advancement of the field.
+                I have graduated from University of Massachusetts, Amherst with Masters in Machine Learning Research 
+                (<a href="https://people.cs.umass.edu/~mccallum/" target="_blank" rel="noopener noreferrer" className="profile-link">Andrew McCallum's lab</a>), 
+                before that I did my Bachelors from Bangalore Institute of Technology, Bengaluru. I grew up in Ranchi, Jharkhand. Reach out to me at: pritish.yuvi@gmail.com
               </p>
             </div>
           </div>
@@ -237,8 +239,8 @@ function App() {
               </div>
               <div className="project-content">
                 <ol className="project-list">
-                  <li>Brought Online Reinforcement Learning techniques to Multilingual to improve Language Match, achieving on average 15% improvements across all LLama supported languages in cross-lingual and mono-lingual tasks</li>
-                  <li>These improvements further enhanced DAU (Daily Active Users) for MetaAI</li>
+                  <li>Brought Online Reinforcement Learning techniques to Multilingual to improve Language Match, achieving on average 15% improvements across all LLama supported languages in cross-lingual and mono-lingual tasks
+                  These improvements further enhanced DAU (Daily Active Users) for MetaAI</li>
                   <li>Used Direct Preference Optimization and Supervised Fine-tuning to ensure LLama3.1 (8B/70B/405B), LLama3.2 (1B/3B), LLama3.3 (70B), LLama4 (Scout, Maverick, Behemoth) were the best models in multilingual across multiple benchmarks like Multi-IF, MGSM, multilingual MMLU</li>
                   <li>These models outperformed GPT-4o, GPT-4.1, Microsoft Phi-3.5, and other leading competitors</li>
                 </ol>
@@ -301,7 +303,7 @@ function App() {
             <div className="experience-item">
               <div className="job-header">
                 <img 
-                  src="/images/llama_logo.avif" 
+                  src="/images/llama_logo_v3.png" 
                   alt="LLama" 
                   className="company-logo"
                 />
