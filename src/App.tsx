@@ -206,24 +206,62 @@ function App() {
           <h2 className="section-title">Experience</h2>
           <div className="experience-list">
             <div className="experience-item">
-              <h3 className="job-title">Machine Learning Engineer</h3>
-              <p className="job-company">Meta</p>
-              <p className="job-date">Present</p>
+              <div className="job-header">
+                <img 
+                  src="/images/llama_logo_v2.jpg" 
+                  alt="LLama" 
+                  className="company-logo"
+                />
+                <div className="job-header-text">
+                  <h3 className="job-title">Machine Learning Engineer</h3>
+                  <p className="job-company">Meta - LLama Team</p>
+                  <p className="job-date">Feb 2024 - Present</p>
+                </div>
+              </div>
               <ul className="job-details">
-                <li>Working on LLama 3 model development and optimization</li>
-                <li>Contributing to large-scale AI infrastructure and deployment</li>
-                <li>Research and development in Large Language Models</li>
+                <li>Lead the LLama multilingual text development for LLama3.1 (8B/70B/405B), LLama3.2 (1B/3B models), LLama3.3 (70B), and LLama4 (Scout, Maverick and Behemoth)</li>
+                <li>Part of post-training teams for LLama3.2 and LLama3.3</li>
+                <li>Contributed to the development of the most advanced suite of models supporting the entire LLama ecosystem</li>
               </ul>
             </div>
             
             <div className="experience-item">
-              <h3 className="job-title">Previous Experience</h3>
-              <p className="job-company">Various Companies</p>
-              <p className="job-date">2017 - Present</p>
+              <div className="job-header">
+                <img 
+                  src="/images/instagram_logo.svg" 
+                  alt="Instagram" 
+                  className="company-logo"
+                />
+                <div className="job-header-text">
+                  <h3 className="job-title">Machine Learning Engineer</h3>
+                  <p className="job-company">Meta - Instagram</p>
+                  <p className="job-date">Dec 2022 - Jan 2024</p>
+                </div>
+              </div>
               <ul className="job-details">
-                <li>Machine Learning and AI research roles</li>
-                <li>Published research papers in top conferences (ACL, IEEE)</li>
-                <li>Won Best Paper Award at ACL 2018</li>
+                <li>Instagram Broadcast (IGBC): Made the app safe by introducing nudity, porn detection, suicide, and self-injury classifiers</li>
+                <li>Built the Bullying & Harassment classifier from scratch using XLM-R base model</li>
+                <li>Created User History Embedding Model to capture user interactions for better ranking of sharing contents between users</li>
+              </ul>
+            </div>
+            
+            <div className="experience-item">
+              <div className="job-header">
+                <img 
+                  src="/images/messenger_logo.png" 
+                  alt="Messenger Kids" 
+                  className="company-logo"
+                />
+                <div className="job-header-text">
+                  <h3 className="job-title">Machine Learning Engineer</h3>
+                  <p className="job-company">Meta - Messenger/Child-Safety</p>
+                  <p className="job-date">July 2019 - Nov 2022</p>
+                </div>
+              </div>
+              <ul className="job-details">
+                <li>Led the child safety division with focus on ensuring highest severity reports for kids get actioned by PDO's fastest</li>
+                <li>Trained multimodal models for proactive safety monitoring</li>
+                <li>Added proactive classifiers for nudity/porn detection and other safety concerns</li>
       </ul>
             </div>
           </div>

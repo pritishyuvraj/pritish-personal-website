@@ -390,16 +390,41 @@
   text-decoration: none;
 }
 
-/* Experience Section */
+/* Experience Section - Enhanced with Company Logos */
 .experience-list {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 30px;
 }
 
 .experience-item {
   border-left: 3px solid #e0e0e0;
-  padding-left: 20px;
+  padding: 25px;
+  border-radius: 8px;
+  border-left: 4px solid #0066cc;
+  background-color: #fafafa;
+}
+
+.job-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.company-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: white;
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-header-text {
+  flex: 1;
 }
 
 .job-title {
@@ -411,23 +436,25 @@
 
 .job-company {
   font-weight: 500;
-  color: #666;
+  color: #0066cc;
   margin-bottom: 5px;
 }
 
 .job-date {
   font-size: 0.9rem;
   color: #888;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 
 .job-details {
   color: #555;
   line-height: 1.6;
+  margin: 0;
+  padding-left: 20px;
 }
 
 .job-details li {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 /* Contact Section */
@@ -526,6 +553,21 @@
   
   .podcast-header-text {
     text-align: center;
+  }
+  
+  .job-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .company-logo {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .job-header-text {
+    width: 100%;
   }
 }
 
