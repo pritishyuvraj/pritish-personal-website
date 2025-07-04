@@ -17,8 +17,6 @@ function App() {
           <div className="nav-links">
             <button onClick={() => scrollToSection('podcasts')} className="nav-link">Podcasts</button>
             <button onClick={() => scrollToSection('publications')} className="nav-link">Publications</button>
-            <button onClick={() => scrollToSection('achievements')} className="nav-link">Key Achievements</button>
-            <button onClick={() => scrollToSection('projects')} className="nav-link">Key Projects</button>
             <button onClick={() => scrollToSection('experience')} className="nav-link">Experience</button>
           </div>
         </div>
@@ -54,12 +52,24 @@ function App() {
           <h2 className="section-title">News</h2>
           <div className="news-list">
             <div className="news-item">
-              <span className="news-date">[Aug 2024]</span>
-              <span className="news-text">Co-authored "The llama 3 herd of models" publication</span>
+              <span className="news-date">[Apr 2025]</span>
+              <span className="news-text">LLama 4 models released - the best multilingual model and best LMSYS non-thinking model with ELO Score: 1417</span>
             </div>
             <div className="news-item">
-              <span className="news-date">[Mar 2024]</span>
-              <span className="news-text">Working on LLama 3 development and optimization at Meta</span>
+              <span className="news-date">[Dec 2024]</span>
+              <span className="news-text">LLama 3.3 released with enhanced capabilities and improved performance</span>
+            </div>
+            <div className="news-item">
+              <span className="news-date">[Sep 2024]</span>
+              <span className="news-text">LLama 3.2 launched - revolutionizing edge AI and vision with open, customizable models for mobile devices</span>
+            </div>
+            <div className="news-item">
+              <span className="news-date">[Jul 2024]</span>
+              <span className="news-text">LLama 3.1 introduced - our most capable models to date with 405B parameters</span>
+            </div>
+            <div className="news-item">
+              <span className="news-date">[Aug 2024]</span>
+              <span className="news-text">Co-authored "The llama 3 herd of models" publication</span>
             </div>
             <div className="news-item">
               <span className="news-date">[Jul 2018]</span>
@@ -187,64 +197,6 @@ function App() {
                   View PDF
                 </a>
               </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Key Achievements Section */}
-        <div className="section" id="achievements">
-          <h2 className="section-title">Key Achievements</h2>
-          <div className="achievements-list">
-            <div className="achievement-item">
-              <span className="achievement-icon">🏆</span>
-              <div className="achievement-content">
-                <h3 className="achievement-title">Best Paper Award</h3>
-                <p className="achievement-desc">Association for Computational Linguistics (ACL), Jul 2018</p>
-                <p className="achievement-detail">Won the best paper award for "A Systematic Classification of Knowledge, Reasoning, and Context within the ARC Dataset" at MRQA 2018</p>
-              </div>
-            </div>
-            <div className="achievement-item">
-              <span className="achievement-icon">🥇</span>
-              <div className="achievement-content">
-                <h3 className="achievement-title">Special Prize Winners (Top 5 Teams)</h3>
-                <p className="achievement-desc">HackerEarth and Harman Hackathon, May 2016</p>
-                <p className="achievement-detail">Stood in top 5 teams out of 445 teams comprising of 1300 members</p>
-              </div>
-            </div>
-            <div className="achievement-item">
-              <span className="achievement-icon">🎓</span>
-              <div className="achievement-content">
-                <h3 className="achievement-title">Summer Research Fellowship</h3>
-                <p className="achievement-desc">Indian Academy of Sciences, Mar 2016</p>
-                <p className="achievement-detail">Selected as Summer Research Fellow for Deep Learning research at Indian Statistical Institute</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Key Projects Section */}
-        <div className="section" id="projects">
-          <h2 className="section-title">Key Projects</h2>
-          <div className="projects-list">
-            <div className="project-item">
-              <span className="project-star">★</span>
-              <span className="project-name">LLama 3:</span>
-              <span className="project-desc">Large Language Model development and optimization at Meta</span>
-            </div>
-            <div className="project-item">
-              <span className="project-star">★</span>
-              <span className="project-name">ARC Dataset Research:</span>
-              <span className="project-desc">A Systematic Classification of Knowledge, Reasoning, and Context</span>
-            </div>
-            <div className="project-item">
-              <span className="project-star">★</span>
-              <span className="project-name">Modified Apriori Algorithm:</span>
-              <span className="project-desc">Improved frequent pattern mining with O((V)(E)) time complexity</span>
-            </div>
-            <div className="project-item">
-              <span className="project-star">★</span>
-              <span className="project-name">Mining User Data for Intelligent Predictions:</span>
-              <span className="project-desc">Predictive analytics for user behavior and travel patterns</span>
             </div>
           </div>
         </div>

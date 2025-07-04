@@ -211,7 +211,7 @@
   border-bottom: 2px solid #e0e0e0;
 }
 
-/* News Section */
+/* News Section - Simplified */
 .news-list {
   display: flex;
   flex-direction: column;
@@ -388,77 +388,6 @@
   background-color: #0066cc;
   color: white;
   text-decoration: none;
-}
-
-/* Achievements Section */
-.achievements-list {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.achievement-item {
-  display: flex;
-  gap: 15px;
-  align-items: flex-start;
-}
-
-.achievement-icon {
-  font-size: 1.5rem;
-  margin-top: 2px;
-}
-
-.achievement-content {
-  flex: 1;
-}
-
-.achievement-title {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #333;
-  margin-bottom: 5px;
-}
-
-.achievement-desc {
-  font-weight: 500;
-  color: #666;
-  margin-bottom: 5px;
-}
-
-.achievement-detail {
-  color: #555;
-  line-height: 1.5;
-}
-
-/* Projects Section */
-.projects-list {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.project-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 8px;
-}
-
-.project-star {
-  color: #ff6b35;
-  font-size: 1.1rem;
-  margin-top: 2px;
-}
-
-.project-name {
-  font-weight: 600;
-  color: #333;
-  min-width: 200px;
-  flex-shrink: 0;
-}
-
-.project-desc {
-  color: #555;
-  line-height: 1.5;
 }
 
 /* Experience Section */
