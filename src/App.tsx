@@ -36,16 +36,15 @@ function App() {
             <div className="profile-info">
               <h1 className="name">Pritish Yuvraj</h1>
               <p className="description">
-                Hi my name is Pritish Yuvraj, I am a Machine Learning engineer at Meta LLama Team. I lead LLama Multilingual team. 
+                Hi, I'm Pritish Yuvraj. I am Co-Founder and CTO of <a href="https://flexify.ai" target="_blank" rel="noopener noreferrer" className="profile-link">flexify.ai</a>, where we're on a mission to bring Supply Chain General Intelligence (SCGI) to the world. We are backed by UC Berkeley - SkyDeck.
                </p>
                <p className="description">
-                I was part of the Meta LLama LMSYS team which created the online-RL recipe lifted the Elo Score for LLama4 from 1246 to 1417 
-                (Yes I know the recipe to give almost 150 ELO Score boost to your model on LMSYS/LMArena.ai). 
+                I'm ex-Meta, ex-LLama, where I led the LLama Multilingual team and was part of the LMSYS team that boosted LLama4's Elo Score from 1246 to 1417 using online-RL techniques.
                 </p>
               <p className="description">
-                I have graduated from University of Massachusetts, Amherst with Masters in Machine Learning Research 
-                (<a href="https://people.cs.umass.edu/~mccallum/" target="_blank" rel="noopener noreferrer" className="profile-link">Andrew McCallum's lab</a>), 
-                before that I did my Bachelors from Bangalore Institute of Technology, Bengaluru. I grew up in Ranchi, Jharkhand. Reach out to me at: pritish.yuvi@gmail.com
+                I graduated from University of Massachusetts, Amherst with a Masters in Machine Learning Research 
+                (<a href="https://people.cs.umass.edu/~mccallum/" target="_blank" rel="noopener noreferrer" className="profile-link">Andrew McCallum's lab</a>). 
+                I did my Bachelors from Bangalore Institute of Technology, Bengaluru, and grew up in Ranchi, Jharkhand. Reach out to me at: pritish.yuvi@gmail.com
               </p>
             </div>
           </div>
@@ -55,6 +54,14 @@ function App() {
         <div className="section">
           <h2 className="section-title">News</h2>
           <div className="news-list">
+            <div className="news-item">
+              <span className="news-date">[Sep 2025]</span>
+              <span className="news-text">Released NameATLAS paper on arXiv - first benchmark for HTS code classification with fine-tuned LLaMA-3.3-70B achieving 40% 10-digit accuracy, outperforming GPT-5 and Gemini-2.5</span>
+            </div>
+            <div className="news-item">
+              <span className="news-date">[Jul 2025]</span>
+              <span className="news-text">Co-founded flexify.ai and joined as CTO - building AI-powered solutions for global trade and logistics</span>
+            </div>
             <div className="news-item">
               <span className="news-date">[Apr 2025]</span>
               <span className="news-text">LLama 4 models released - the best multilingual model and best LMSYS non-thinking model with ELO Score: 1417</span>
@@ -145,6 +152,19 @@ function App() {
         <div className="section" id="publications">
           <h2 className="section-title">Publications</h2>
           <div className="publications-list">
+            <div className="publication-item">
+              <h3 className="pub-title">Flexify.AI ATLAS: BENCHMARKING AND ADAPTING LLMS FOR GLOBAL TRADE VIA HARMONIZED TARIFF CODE CLASSIFICATION</h3>
+              <p className="pub-authors">Pritish Yuvraj</p>
+              <p className="pub-venue">arXiv | Under Review for ICLR 2026 Workshop</p>
+              <p className="pub-desc">We introduce the first benchmark for HTS code classification, derived from the U.S. Customs Rulings Online Search System (CROSS). Our fine-tuned ATLAS model (LLaMA-3.3-70B) achieves 40% fully correct 10-digit classifications and 57.5% correct 6-digit classifications—improvements of +15 points over GPT-5-Thinking and +27.5 points over Gemini-2.5-Pro-Thinking.</p>
+              <p className="pub-note">🏆 5× cheaper than GPT-5-thinking and 8× cheaper than Gemini-2.5-Pro-Thinking with self-hosting capabilities for data privacy requirements</p>
+              <div className="pub-links">
+                <a href="https://arxiv.org/pdf/2509.18400" target="_blank" rel="noopener noreferrer" className="pub-link">
+                  View on arXiv
+                </a>
+              </div>
+            </div>
+
             <div className="publication-item">
               <h3 className="pub-title">Layer Swapping for Zero-Shot Cross-Lingual Transfer in Large Language Models</h3>
               <p className="pub-authors">Lucas Bandarkar, Benjamin Muller, Pritish Yuvraj, Rui Hou, Nayan Singhal, Hongjiang Lv, Bing Liu</p>
@@ -271,6 +291,40 @@ function App() {
               <div className="speaker-header">
                 <span className="speaker-icon">🎤</span>
                 <div className="speaker-header-text">
+                  <h3 className="speaker-title">Universidad Técnica del Norte, Ecuador</h3>
+                  <p className="speaker-role">Guest Speaker</p>
+                  <p className="speaker-date">2025</p>
+                </div>
+              </div>
+              <p className="speaker-desc">
+                Spoke at Universidad Técnica del Norte in Imbabura, Ecuador, presenting work on LLama4 and the importance of Online RL to students and professors. 
+                My first speaking engagement in South America, sharing insights on cutting-edge reinforcement learning techniques and 
+                multilingual AI development with the academic community.
+              </p>
+              <div className="speaker-links">
+                <a href="https://www.utn.edu.ec" 
+                   target="_blank" rel="noopener noreferrer" className="speaker-link">
+                  University Website
+                </a>
+                <a href="https://www.facebook.com/share/v/1AvjKQAkW6/" 
+                   target="_blank" rel="noopener noreferrer" className="speaker-link">
+                  Watch Video
+                </a>
+                <a href="https://m.facebook.com/story.php?story_fbid=pfbid02HfTZADgrkXkAPvf7fBvW1yhGi2f8Tcgqa3Thc8aqPajsqnjsQcTSGWw2LCjaWKq8l&id=100066647314602" 
+                   target="_blank" rel="noopener noreferrer" className="speaker-link">
+                  View Photos
+                </a>
+                <a href="https://www.linkedin.com/posts/pritishyuvraj_llama-and-multilingual-ai-at-utn-imbabura-activity-7367692481183830020-V4j_?utm_source=share&utm_medium=member_desktop&rcm=ACoAABo2zT4BqAPL0htEQ9VVPxy_55WT44NzH4s" 
+                   target="_blank" rel="noopener noreferrer" className="speaker-link">
+                  LinkedIn Post
+                </a>
+              </div>
+            </div>
+            
+            <div className="speaker-item">
+              <div className="speaker-header">
+                <span className="speaker-icon">🎤</span>
+                <div className="speaker-header-text">
                   <h3 className="speaker-title">GenAI Summit 2024</h3>
                   <p className="speaker-role">Keynote Speaker</p>
                   <p className="speaker-date">November 2, 2024</p>
@@ -300,6 +354,26 @@ function App() {
         <div className="section" id="experience">
           <h2 className="section-title">Experience</h2>
           <div className="experience-list">
+            <div className="experience-item">
+              <div className="job-header">
+                <img 
+                  src="/images/white_flexify_logo_filled.jpg" 
+                  alt="flexify.ai" 
+                  className="company-logo"
+                />
+                <div className="job-header-text">
+                  <h3 className="job-title">Co-Founder & Chief Technology Officer</h3>
+                  <p className="job-company">flexify.ai</p>
+                  <p className="job-date">July 2025 - Present</p>
+                </div>
+              </div>
+              <ul className="job-details">
+                <li>Co-founded flexify.ai to build AI-powered solutions for global trade and logistics</li>
+                <li>Leading development of NameATLAS - the first benchmark for Harmonized Tariff Schedule (HTS) code classification with ATLAS model achieving 40% 10-digit accuracy</li>
+                <li>Flexify.AI is backed by University of California Berkeley - SkyDeck program</li>
+              </ul>
+            </div>
+            
             <div className="experience-item">
               <div className="job-header">
                 <img 
