@@ -162,6 +162,12 @@ function App() {
                 <a href="https://arxiv.org/pdf/2509.18400" target="_blank" rel="noopener noreferrer" className="pub-link">
                   View on arXiv
                 </a>
+                <a href="https://huggingface.co/datasets/flexifyai/cross_rulings_hts_dataset_for_tariffs" target="_blank" rel="noopener noreferrer" className="pub-link">
+                  Dataset
+                </a>
+                <a href="https://huggingface.co/flexifyai/atlas-llama3.3-70b-hts-classification" target="_blank" rel="noopener noreferrer" className="pub-link">
+                  Model
+                </a>
               </div>
             </div>
 
@@ -229,6 +235,26 @@ function App() {
         <div className="section" id="projects">
           <h2 className="section-title">Key Projects</h2>
           <div className="projects-list">
+            <div className="project-item">
+              <div className="project-header">
+                <span className="project-icon">🚀</span>
+                <div className="project-header-text">
+                  <h3 className="project-title">TariffPro (flexify.ai)</h3>
+                  <p className="project-role">AI Agent & Proprietary Model Development</p>
+                </div>
+              </div>
+              <p className="project-desc">
+                Built the AI Agent along with a proprietary model trained on proprietary dataset, creating the best HTS Classifier in the industry with integrated Duty Rate calculator. 
+                TariffPro is being loved by the industry and is the driving force behind Flexify.AI's traction.
+              </p>
+              <div className="project-links">
+                <a href="https://tariffpro.flexify.ai/" 
+                   target="_blank" rel="noopener noreferrer" className="project-link">
+                  Visit TariffPro
+                </a>
+              </div>
+            </div>
+            
             <div className="project-item">
               <div className="project-header">
                 <span className="project-icon">🏆</span>
