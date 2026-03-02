@@ -39,10 +39,7 @@ function App() {
                 Hi, I'm Pritish Yuvraj. I am a Member of Technical Staff at <a href="https://www.zyphra.com" target="_blank" rel="noopener noreferrer" className="profile-link">Zyphra</a>, on the Reinforcement Learning and Post-Training team. My research focuses on RL for human alignment — exploring reward modeling approaches such as Bradley-Terry loss reward models, generative reward models, and rubrics-based evaluation, as well as various RL loss functions for LLM alignment.
                </p>
                <p className="description">
-                I'm also Co-Founder and CTO of <a href="https://flexify.ai" target="_blank" rel="noopener noreferrer" className="profile-link">flexify.ai</a>, where we're on a mission to bring Supply Chain General Intelligence (SCGI) to the world (backed by UC Berkeley - SkyDeck).
-               </p>
-               <p className="description">
-                I'm ex-Meta, ex-LLama, where I led the LLama Multilingual team and was part of the LMSYS team that boosted LLama4's Elo Score from 1246 to 1417 using online-RL techniques.
+                Previously, I was ex-Meta, ex-LLama, where I led the LLama Multilingual team and was part of the LMSYS team that boosted LLama4's Elo Score from 1246 to 1417 using online-RL techniques. I also founded <a href="https://flexify.ai" target="_blank" rel="noopener noreferrer" className="profile-link">flexify.ai</a> (UC Berkeley SkyDeck Alumni, Founder Batch 20).
                 </p>
               <p className="description">
                 I graduated from University of Massachusetts, Amherst with a Masters in Machine Learning Research 
