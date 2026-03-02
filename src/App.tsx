@@ -36,7 +36,10 @@ function App() {
             <div className="profile-info">
               <h1 className="name">Pritish Yuvraj</h1>
               <p className="description">
-                Hi, I'm Pritish Yuvraj. I am Co-Founder and CTO of <a href="https://flexify.ai" target="_blank" rel="noopener noreferrer" className="profile-link">flexify.ai</a>, where we're on a mission to bring Supply Chain General Intelligence (SCGI) to the world. We are backed by UC Berkeley - SkyDeck.
+                Hi, I'm Pritish Yuvraj. I am a Member of Technical Staff at <a href="https://www.zyphra.com" target="_blank" rel="noopener noreferrer" className="profile-link">Zyphra</a>, on the Reinforcement Learning and Post-Training team. My research focuses on RL for human alignment — exploring reward modeling approaches such as Bradley-Terry loss reward models, generative reward models, and rubrics-based evaluation, as well as various RL loss functions for LLM alignment.
+               </p>
+               <p className="description">
+                I'm also Co-Founder and CTO of <a href="https://flexify.ai" target="_blank" rel="noopener noreferrer" className="profile-link">flexify.ai</a>, where we're on a mission to bring Supply Chain General Intelligence (SCGI) to the world (backed by UC Berkeley - SkyDeck).
                </p>
                <p className="description">
                 I'm ex-Meta, ex-LLama, where I led the LLama Multilingual team and was part of the LMSYS team that boosted LLama4's Elo Score from 1246 to 1417 using online-RL techniques.
@@ -55,8 +58,14 @@ function App() {
           <h2 className="section-title">News</h2>
           <div className="news-list">
             <div className="news-item">
+              <span className="news-date">[Dec 2025]</span>
+              <span className="news-text">
+                ATLAS paper accepted to <a href="https://neurips.cc/virtual/2025/loc/mexico-city/129845" target="_blank" rel="noopener noreferrer" className="news-link">NeurIPS 2025 NORA Workshop</a> and presented as a poster in Mexico City
+              </span>
+            </div>
+            <div className="news-item">
               <span className="news-date">[Sep 2025]</span>
-              <span className="news-text">Released NameATLAS paper on arXiv - first benchmark for HTS code classification with fine-tuned LLaMA-3.3-70B achieving 40% 10-digit accuracy, outperforming GPT-5 and Gemini-2.5</span>
+              <span className="news-text">Released ATLAS paper on arXiv - first benchmark for HTS code classification with fine-tuned LLaMA-3.3-70B achieving 40% 10-digit accuracy, outperforming GPT-5 and Gemini-2.5</span>
             </div>
             <div className="news-item">
               <span className="news-date">[Jul 2025]</span>
@@ -153,14 +162,23 @@ function App() {
           <h2 className="section-title">Publications</h2>
           <div className="publications-list">
             <div className="publication-item">
-              <h3 className="pub-title">Flexify.AI ATLAS: BENCHMARKING AND ADAPTING LLMS FOR GLOBAL TRADE VIA HARMONIZED TARIFF CODE CLASSIFICATION</h3>
-              <p className="pub-authors">Pritish Yuvraj</p>
-              <p className="pub-venue">arXiv | Under Review for ICLR 2026 Workshop</p>
-              <p className="pub-desc">We introduce the first benchmark for HTS code classification, derived from the U.S. Customs Rulings Online Search System (CROSS). Our fine-tuned ATLAS model (LLaMA-3.3-70B) achieves 40% fully correct 10-digit classifications and 57.5% correct 6-digit classifications—improvements of +15 points over GPT-5-Thinking and +27.5 points over Gemini-2.5-Pro-Thinking.</p>
-              <p className="pub-note">🏆 5× cheaper than GPT-5-thinking and 8× cheaper than Gemini-2.5-Pro-Thinking with self-hosting capabilities for data privacy requirements</p>
+              <h3 className="pub-title">ATLAS: Benchmarking and Adapting LLMs for Global Trade via Harmonized Tariff Code Classification</h3>
+              <p className="pub-authors">Pritish Yuvraj, Siva Devarakonda</p>
+              <p className="pub-venue">NeurIPS 2025 — NORA Workshop (Knowledge Graphs & Agentic Systems Interplay), Mexico City</p>
+              <p className="pub-desc">We introduce the first benchmark for HTS code classification, derived from the U.S. Customs Rulings Online Search System (CROSS). Our fine-tuned ATLAS model (LLaMA-3.3-70B) achieves 40% fully correct 10-digit classifications and 57.5% correct 6-digit classifications — improvements of +15 points over GPT-5-Thinking and +27.5 points over Gemini-2.5-Pro-Thinking.</p>
+              <p className="pub-note">🏆 5x cheaper than GPT-5-Thinking and 8x cheaper than Gemini-2.5-Pro-Thinking with self-hosting capabilities for data privacy requirements</p>
               <div className="pub-links">
+                <a href="https://neurips.cc/virtual/2025/loc/mexico-city/129845" target="_blank" rel="noopener noreferrer" className="pub-link">
+                  NeurIPS Page
+                </a>
+                <a href="https://ceur-ws.org/Vol-4162/paper7.pdf" target="_blank" rel="noopener noreferrer" className="pub-link">
+                  Paper (CEUR-WS)
+                </a>
+                <a href="https://neurips.cc/media/PosterPDFs/NeurIPS%202025/129845.png?t=1763100920.932186" target="_blank" rel="noopener noreferrer" className="pub-link">
+                  Poster
+                </a>
                 <a href="https://arxiv.org/pdf/2509.18400" target="_blank" rel="noopener noreferrer" className="pub-link">
-                  View on arXiv
+                  arXiv
                 </a>
                 <a href="https://huggingface.co/datasets/flexifyai/cross_rulings_hts_dataset_for_tariffs" target="_blank" rel="noopener noreferrer" className="pub-link">
                   Dataset
