@@ -271,6 +271,7 @@ function AgricultureAgent() {
           </p>
           <div className="agri-footer-links">
             <Link to="/">Personal Site</Link>
+            <Link to="/agriculture-agent/sms-consent">SMS Consent</Link>
             <a href="mailto:pritish.yuvi@gmail.com">Email</a>
           </div>
         </div>

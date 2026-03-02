@@ -1,0 +1,275 @@
+.consent-page {
+  min-height: 100vh;
+  background: #f8faf8;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #1a2e1a;
+  display: flex;
+  flex-direction: column;
+}
+
+.consent-navbar {
+  background: #1a2e1a;
+  padding: 1rem 2rem;
+}
+
+.consent-nav-container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.consent-nav-brand {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.consent-brand-icon {
+  font-size: 1.4rem;
+}
+
+.consent-back-link {
+  color: #a8d5a8;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.consent-back-link:hover {
+  color: #ffffff;
+}
+
+.consent-main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem 1.5rem;
+}
+
+.consent-card {
+  max-width: 720px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.consent-header {
+  background: linear-gradient(135deg, #2d5a2d, #3a7a3a);
+  color: #ffffff;
+  padding: 2rem 2.5rem;
+}
+
+.consent-header h1 {
+  margin: 0 0 0.5rem;
+  font-size: 1.6rem;
+}
+
+.consent-subtitle {
+  margin: 0;
+  opacity: 0.85;
+  font-size: 1rem;
+}
+
+.consent-form {
+  padding: 2rem 2.5rem;
+}
+
+.consent-info {
+  margin-bottom: 1.5rem;
+}
+
+.consent-info h2,
+.consent-terms h2 {
+  font-size: 1.1rem;
+  margin: 0 0 0.75rem;
+  color: #2d5a2d;
+}
+
+.consent-info p {
+  margin: 0 0 0.75rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.consent-info ul,
+.consent-terms ul {
+  margin: 0 0 1rem;
+  padding-left: 1.25rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+.consent-terms {
+  background: #f4f8f4;
+  border: 1px solid #d4e8d4;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.consent-terms li {
+  margin-bottom: 0.5rem;
+}
+
+.consent-form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.consent-label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #2d5a2d;
+}
+
+.consent-input {
+  padding: 0.75rem 1rem;
+  border: 2px solid #d4e8d4;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.consent-input:focus {
+  border-color: #3a7a3a;
+}
+
+.consent-checkbox-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin: 0.5rem 0;
+}
+
+.consent-checkbox {
+  margin-top: 0.25rem;
+  width: 18px;
+  height: 18px;
+  accent-color: #2d5a2d;
+  flex-shrink: 0;
+}
+
+.consent-checkbox-label {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.consent-submit {
+  background: linear-gradient(135deg, #2d5a2d, #3a7a3a);
+  color: #ffffff;
+  border: none;
+  padding: 0.9rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  margin-top: 0.5rem;
+}
+
+.consent-submit:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.consent-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.consent-footer-info {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e8e8e8;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.consent-footer-info a {
+  color: #2d5a2d;
+}
+
+.consent-footer-info p {
+  margin: 0.25rem 0;
+}
+
+.consent-success {
+  padding: 3rem 2.5rem;
+  text-align: center;
+}
+
+.consent-success-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.consent-success h2 {
+  color: #2d5a2d;
+  margin: 0 0 1rem;
+}
+
+.consent-success p {
+  color: #444;
+  line-height: 1.6;
+  margin: 0.5rem 0;
+}
+
+.consent-success-note {
+  background: #f4f8f4;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+}
+
+.consent-back-btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  color: #2d5a2d;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.consent-back-btn:hover {
+  text-decoration: underline;
+}
+
+.consent-page-footer {
+  background: #1a2e1a;
+  color: #a8d5a8;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.8rem;
+}
+
+.consent-page-footer a {
+  color: #c8ecc8;
+}
+
+.consent-page-footer p {
+  margin: 0.25rem 0;
+}
+
+@media (max-width: 640px) {
+  .consent-form {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .consent-header {
+    padding: 1.5rem;
+  }
+
+  .consent-header h1 {
+    font-size: 1.3rem;
+  }
+}
