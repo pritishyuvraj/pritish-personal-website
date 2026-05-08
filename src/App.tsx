@@ -55,6 +55,12 @@ function App() {
           <h2 className="section-title">News</h2>
           <div className="news-list">
             <div className="news-item">
+              <span className="news-date">[May 2026]</span>
+              <span className="news-text">
+                Released <a href="https://www.zyphra.com/models/zaya1-8b" target="_blank" rel="noopener noreferrer" className="news-link">ZAYA1-8B</a> — our large-scale RL and post-training pushed a sub–1B active-parameter MoE to compete with frontier open-weight models on math, coding, and reasoning. See the <a href="https://www.zyphra.com/post/zaya1-8b" target="_blank" rel="noopener noreferrer" className="news-link">blog post</a>, <a href="https://www.zyphra.com/zaya1-8b-technical-report" target="_blank" rel="noopener noreferrer" className="news-link">technical report</a>, <a href="https://arxiv.org/pdf/2605.05365" target="_blank" rel="noopener noreferrer" className="news-link">arXiv PDF</a>, and <a href="https://huggingface.co/Zyphra/ZAYA1-8B" target="_blank" rel="noopener noreferrer" className="news-link">Hugging Face model card</a>.
+              </span>
+            </div>
+            <div className="news-item">
               <span className="news-date">[Dec 2025]</span>
               <span className="news-text">
                 ATLAS paper accepted to <a href="https://neurips.cc/virtual/2025/loc/mexico-city/129845" target="_blank" rel="noopener noreferrer" className="news-link">NeurIPS 2025 NORA Workshop</a> and presented as a poster in Mexico City
@@ -158,6 +164,35 @@ function App() {
         <div className="section" id="publications">
           <h2 className="section-title">Publications</h2>
           <div className="publications-list">
+            <div className="publication-item">
+              <h3 className="pub-title">ZAYA1-8B Technical Report</h3>
+              <p className="pub-authors">Pritish Yuvraj et al.</p>
+              <p className="pub-venue">Zyphra, May 2026</p>
+              <p className="pub-desc">
+                ZAYA1-8B is a reasoning-focused mixture-of-experts model (~700M active parameters, 8B total) trained end-to-end on AMD. Through a strong RL and post-training stack—including reasoning warmup, large-scale math/code RL, and behavioral RL—we pushed a sub-billion active-parameter model into the same league as much larger frontier open-weight systems on mathematics, coding, and reasoning benchmarks. We also introduce Markovian RSA, a test-time compute method that recursively aggregates parallel reasoning traces while keeping forwarded chain-of-thought bounded.
+              </p>
+              <div className="pub-links">
+                <a href="https://www.zyphra.com/models/zaya1-8b" target="_blank" rel="noopener noreferrer" className="pub-link">
+                  Model
+                </a>
+                <a href="https://www.zyphra.com/post/zaya1-8b" target="_blank" rel="noopener noreferrer" className="pub-link">
+                  Blog
+                </a>
+                <a href="https://www.zyphra.com/zaya1-8b-technical-report" target="_blank" rel="noopener noreferrer" className="pub-link">
+                  Technical report
+                </a>
+                <a href="https://arxiv.org/pdf/2605.05365" target="_blank" rel="noopener noreferrer" className="pub-link">
+                  arXiv (PDF)
+                </a>
+                <a href="https://arxiv.org/abs/2605.05365" target="_blank" rel="noopener noreferrer" className="pub-link">
+                  arXiv (abs)
+                </a>
+                <a href="https://huggingface.co/Zyphra/ZAYA1-8B" target="_blank" rel="noopener noreferrer" className="pub-link">
+                  Hugging Face
+                </a>
+              </div>
+            </div>
+
             <div className="publication-item">
               <h3 className="pub-title">ATLAS: Benchmarking and Adapting LLMs for Global Trade via Harmonized Tariff Code Classification</h3>
               <p className="pub-authors">Pritish Yuvraj, Siva Devarakonda</p>
@@ -395,6 +430,27 @@ function App() {
         <div className="section" id="experience">
           <h2 className="section-title">Experience</h2>
           <div className="experience-list">
+            <div className="experience-item">
+              <div className="job-header">
+                <img
+                  src="https://framerusercontent.com/images/Pjn508YTXpG7PZsGTrXXnHiYzM.png"
+                  alt="Zyphra"
+                  className="company-logo"
+                />
+                <div className="job-header-text">
+                  <h3 className="job-title">Member of Technical Staff</h3>
+                  <p className="job-company">Zyphra — Reinforcement Learning & Post-Training</p>
+                  <p className="job-date">2025 - Present</p>
+                </div>
+              </div>
+              <ul className="job-details">
+                <li>
+                  Co-authored <a href="https://www.zyphra.com/models/zaya1-8b" target="_blank" rel="noopener noreferrer">ZAYA1-8B</a>: our large-scale RL and post-training helped a sub–1B active-parameter MoE match or exceed much larger open-weight models on mathematics, coding, and reasoning; see the <a href="https://arxiv.org/pdf/2605.05365" target="_blank" rel="noopener noreferrer">technical report</a> and <a href="https://huggingface.co/Zyphra/ZAYA1-8B" target="_blank" rel="noopener noreferrer">Hugging Face weights</a>.
+                </li>
+                <li>Research on RL for alignment, reward modeling, and post-training for LLMs</li>
+              </ul>
+            </div>
+
             <div className="experience-item">
               <div className="job-header">
                 <img 
