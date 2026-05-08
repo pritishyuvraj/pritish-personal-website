@@ -287,6 +287,27 @@ function App() {
           <div className="projects-list">
             <div className="project-item">
               <div className="project-header">
+                <span className="project-icon">🔬</span>
+                <div className="project-header-text">
+                  <h3 className="project-title">ZAYA1-8B — RL &amp; post-training (Zyphra)</h3>
+                  <p className="project-role">Co-author · Member of Technical Staff</p>
+                </div>
+              </div>
+              <p className="project-desc">
+                Built RL after SFT for ZAYA1-8B: verifiable math, code, and test-time-compute rollouts, then behavioral RL for chat and instruction following—with IF-gated reward modeling (generative, preference / Bradley–Terry, and rubric-based RMs plus binary instruction checkers).
+                On the evaluation axes most aligned with that polish—<strong>IFEval</strong>, <strong>IFBench</strong>, <strong>EQBench</strong>, and <strong>Creative Writing v3</strong>—the aggregate <strong>SFT → final</strong> gains use the same Zyphra harness and settings as <a href="https://arxiv.org/pdf/2605.05365" target="_blank" rel="noopener noreferrer" className="profile-link">Table IX</a> (full RL cascade vs. 131K SFT checkpoint): IFEval +18.98 (66.60→85.58), IFBench +22.36 (30.20→52.56), EQBench +15.15 (57.80→72.95), and Creative Writing v3 +16.25 (46.72→62.97).
+                Those instruction-following and style-focused lifts help position a ~0.76B-active MoE alongside much larger open-weight models.
+              </p>
+              <div className="project-links">
+                <a href="https://www.zyphra.com/models/zaya1-8b" target="_blank" rel="noopener noreferrer" className="project-link">Model</a>
+                <a href="https://www.zyphra.com/post/zaya1-8b" target="_blank" rel="noopener noreferrer" className="project-link">Blog</a>
+                <a href="https://arxiv.org/pdf/2605.05365" target="_blank" rel="noopener noreferrer" className="project-link">Technical report (PDF)</a>
+                <a href="https://huggingface.co/Zyphra/ZAYA1-8B" target="_blank" rel="noopener noreferrer" className="project-link">Hugging Face</a>
+              </div>
+            </div>
+
+            <div className="project-item">
+              <div className="project-header">
                 <span className="project-icon">🚀</span>
                 <div className="project-header-text">
                   <h3 className="project-title">TariffPro (flexify.ai)</h3>
