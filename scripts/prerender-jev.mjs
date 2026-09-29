@@ -10,7 +10,12 @@ const title = 'Tool Selection with Jev-Style Decision Models: A BFCL V1 Pilot St
 const description = 'A short-context evaluation of seven decision systems on 250 BFCL V1-derived cases, toward long-context single-prefill tool selection for on-device assistants.';
 const image = `${canonical}/benchmark-card.png`;
 const report = JSON.parse(await readFile(`public${route}/report.json`, 'utf8'));
-const server = await createServer({ server: { middlewareMode: true }, appType: 'custom' });
+// This is a one-shot render: watching the repository (including CI's npm cache)
+// adds no value and can exhaust Linux's file-watcher limit during deployment.
+const server = await createServer({
+  server: { middlewareMode: true, watch: null, hmr: false },
+  appType: 'custom',
+});
 try {
   const { default: Article } = await server.ssrLoadModule('/src/JevRoutingStudy.tsx');
   const body = renderToString(React.createElement(Article, { initialReport: report }));
