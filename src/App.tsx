@@ -55,6 +55,12 @@ function App() {
           <h2 className="section-title">News</h2>
           <div className="news-list">
             <div className="news-item">
+              <span className="news-date">[Sep 2026]</span>
+              <span className="news-text">
+                <a href="/jev-style-evals/bfcl-v1" className="news-link">Can a small model choose the right tool?</a> — a visual study of seven Jev-style decision systems on 250 BFCL-derived routing cases, with interactive results and public predictions.
+              </span>
+            </div>
+            <div className="news-item">
               <span className="news-date">[May 2026]</span>
               <span className="news-text">
                 Released <a href="https://www.zyphra.com/models/zaya1-8b" target="_blank" rel="noopener noreferrer" className="news-link">ZAYA1-8B</a> — our large-scale RL and post-training pushed a sub–1B active-parameter MoE to compete with frontier open-weight models on math, coding, and reasoning. See the <a href="https://www.zyphra.com/post/zaya1-8b" target="_blank" rel="noopener noreferrer" className="news-link">blog post</a>, <a href="https://www.zyphra.com/zaya1-8b-technical-report" target="_blank" rel="noopener noreferrer" className="news-link">technical report</a>, <a href="https://arxiv.org/pdf/2605.05365" target="_blank" rel="noopener noreferrer" className="news-link">arXiv PDF</a>, and <a href="https://huggingface.co/Zyphra/ZAYA1-8B" target="_blank" rel="noopener noreferrer" className="news-link">Hugging Face model card</a>.
