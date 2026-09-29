@@ -6,8 +6,8 @@ import { renderToString } from 'react-dom/server';
 // Publish a readable article and social metadata even without JavaScript.
 const route = '/jev-style-evals/bfcl-v1';
 const canonical = `https://www.pritishyuvraj.com${route}`;
-const title = 'Can small decision models choose the right tool? | Pritish Yuvraj';
-const description = 'Seven open decision systems, 250 BFCL-derived routing cases, and every prediction to inspect. An initial study motivated by local personal assistants.';
+const title = 'Tool Selection with Jev-Style Decision Models: A BFCL V1 Pilot Study | Pritish Yuvraj';
+const description = 'A short-context evaluation of seven decision systems on 250 BFCL V1-derived cases, toward long-context single-prefill tool selection for on-device assistants.';
 const image = `${canonical}/benchmark-card.png`;
 const report = JSON.parse(await readFile(`public${route}/report.json`, 'utf8'));
 const server = await createServer({ server: { middlewareMode: true }, appType: 'custom' });

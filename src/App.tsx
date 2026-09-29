@@ -57,7 +57,7 @@ function App() {
             <div className="news-item">
               <span className="news-date">[Sep 2026]</span>
               <span className="news-text">
-                <a href="/jev-style-evals/bfcl-v1" className="news-link">Can a small model choose the right tool?</a> — a visual study of seven Jev-style decision systems on 250 BFCL-derived routing cases, with interactive results and public predictions.
+                <a href="/jev-style-evals/bfcl-v1" className="news-link">Tool Selection with Jev-Style Decision Models</a> — a BFCL V1 pilot study toward on-device personal assistants, with interactive results and public predictions.
               </span>
             </div>
             <div className="news-item">
