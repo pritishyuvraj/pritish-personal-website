@@ -4,8 +4,8 @@
     "title": "Seven decision systems, 250 routing decisions",
     "subtitle": "A selected BFCL V1 first-step routing pilot with every recorded prediction.",
     "scope": "Function selection only; arguments, tool execution, final answers, and multi-step completion are not evaluated.",
-    "hardware": "NVIDIA H100 80GB HBM3",
-    "hardwareEvidence": "Run documentation; explicit device identity in Nimble, Rizzo, and Von metadata. Other saved identities record CUDA without a GPU name.",
+    "hardware": "Not disclosed",
+    "hardwareEvidence": "Hardware model is not disclosed in the public release.",
     "runStartUtc": "2026-09-29T00:11:44+00:00",
     "lastRunStartedUtc": "2026-09-29T01:48:02+00:00",
     "huggingFaceUrl": "https://huggingface.co/datasets/pyuvraj/bfcl-v1-jev-routing",
@@ -58,7 +58,7 @@
       "No uniform recorded warm-up or repeated trials.",
       "HTTP, bridged HTTP, and in-process scorer timing boundaries differ.",
       "Precision, runtime, kernels, and prompt serialization differ across models.",
-      "These are H100 observations, not Mac measurements or end-to-end agent timings.",
+      "These are exploratory measurements, not Mac measurements or end-to-end agent timings. Hardware model is not disclosed.",
       "The first field is the first recorded row within that subset, not a controlled cold-start benchmark."
     ],
     "evaluationLimitations": [
@@ -111,7 +111,7 @@
       "runtime": {
         "precision": "FP16",
         "interface": "Native System One HTTP server",
-        "hardware": "NVIDIA H100 80GB HBM3 (reported run hardware)"
+        "hardware": "Not disclosed"
       },
       "sourceUrl": "https://github.com/NandhaKishorM/laya",
       "metrics": {
@@ -288,7 +288,7 @@
       "runtime": {
         "precision": "FP32",
         "interface": "Native System One HTTP server",
-        "hardware": "NVIDIA H100 80GB HBM3 (reported run hardware)"
+        "hardware": "Not disclosed"
       },
       "sourceUrl": "https://github.com/jaredpalmer/kev",
       "metrics": {
@@ -466,7 +466,7 @@
       "runtime": {
         "precision": "BF16",
         "interface": "In-process native CUDA candidate scorer",
-        "hardware": "NVIDIA H100 80GB HBM3 (reported run hardware)"
+        "hardware": "Not disclosed"
       },
       "sourceUrl": "https://github.com/bespokelabsai/nimble",
       "metrics": {
@@ -641,7 +641,7 @@
       "runtime": {
         "precision": "BF16",
         "interface": "In-process frozen-model answer-letter logits",
-        "hardware": "NVIDIA H100 80GB HBM3 (reported run hardware)"
+        "hardware": "Not disclosed"
       },
       "sourceUrl": "https://github.com/TheoLeeCJ/SemIf-OpenJev",
       "metrics": {
@@ -820,7 +820,7 @@
       "runtime": {
         "precision": "Q8_0",
         "interface": "Native System One HTTP server over llama.cpp CUDA",
-        "hardware": "NVIDIA H100 80GB HBM3 (reported run hardware)"
+        "hardware": "Not disclosed"
       },
       "sourceUrl": "https://github.com/Rizzo-AI-Academy/rizzo-flow",
       "metrics": {
@@ -996,7 +996,7 @@
       "runtime": {
         "precision": "Not recorded in saved run metadata",
         "interface": "Native System One HTTP server",
-        "hardware": "NVIDIA H100 80GB HBM3 (reported run hardware)"
+        "hardware": "Not disclosed"
       },
       "sourceUrl": "https://github.com/wfzyx/von",
       "metrics": {
@@ -1174,7 +1174,7 @@
       "runtime": {
         "precision": "BF16",
         "interface": "Native decision server plus local HTTP envelope bridge",
-        "hardware": "NVIDIA H100 80GB HBM3 (reported run hardware)"
+        "hardware": "Not disclosed"
       },
       "sourceUrl": "https://github.com/TianyuCodings/NanoJev",
       "metrics": {

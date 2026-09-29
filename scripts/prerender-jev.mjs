@@ -24,7 +24,7 @@ try {
     <meta property="og:image" content="${image}" />
     <meta property="og:image:width" content="1600" />
     <meta property="og:image:height" content="1000" />
-    <meta property="og:image:alt" content="Routing accuracy and recorded H100 median latency for seven systems on 250 BFCL-derived cases" />
+    <meta property="og:image:alt" content="Routing accuracy and recorded median latency for seven systems on 250 BFCL-derived cases" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="${title}" />
     <meta name="twitter:description" content="${description}" />
